@@ -17,15 +17,15 @@
     rel="stylesheet">
 
   <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
-<body class="max-w-6xl mx-auto">
+<body class="max-w-6xl mx-auto bg-[#F5F8FF]">
+  <!-- start nav section -->
   <header class="mx-3 my-3 lg:px-16">
-    <!-- start nav section -->
     <nav class="flex justify-between items-center">
       <img class="w-32 h-20" src="./assets/logo.png" alt="">
       <ul class="flex gap-12">
@@ -34,11 +34,32 @@
           <li class="text-[#8987A1] hover:text-[#252432] hover:font-bold"><a href="">Shop</a></li>
           <li class="text-[#8987A1] hover:text-[#252432] hover:font-bold"><a href="">About Us</a></li>
         </div>
-        <li class="hover:text-[#252432] hover:font-bold"><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart($56)</a></li>
+        <li class="hover:text-[#252432] hover:font-bold"><a href=""><i class="fa-solid fa-cart-shopping"></i>
+            Cart($56)</a></li>
       </ul>
     </nav>
-    <!-- end nav section -->
   </header>
+  <!-- end nav section -->
+
+  <main>
+    <!-- start hero/banner section -->
+    <section class="mt-10 max-w-6xl mx-auto lg:px-16">
+      <div class="lg:flex lg:flex-row-reverse lg:relative">
+        <div class="lg:w-1/2">
+          <img class="w-full" src="./assets/hero-flower.png" alt="">
+        </div>
+        <div class="mx-5 lg:w-1/2 lg:text-left lg:absolute lg:bottom-0 lg:left-0">
+          <h1 class="mt-10 text-4xl font-bold font-serif">ALWAYS <span class="text-[#E95A08]">FRESH <br> FLOWERS</span>
+          </h1>
+          <p class="text-[#8987A1] mt-3">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+            From
+            classic roses to exotic blooms, we
+            offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+        </div>
+      </div>
+    </section>
+    <!-- end hero/banner section -->
+  </main>
 </body>
 
 </html>
